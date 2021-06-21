@@ -74,7 +74,7 @@ To access the complementary material take a look at [Whimscal](https://whimsical
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [PostgreSQL][postgres] or an postgres image on[Docker](https://www.docker.com/get-started), [Elixir][elixir] + [Erlang][erlang] installed on your computer.
+To clone and run this application, you'll need [Git](https://git-scm.com), [PostgreSQL][postgres] or an postgres image on [Docker](https://www.docker.com/get-started), [Elixir][elixir] + [Erlang][erlang] installed on your computer.
 
 From your command line:
 
