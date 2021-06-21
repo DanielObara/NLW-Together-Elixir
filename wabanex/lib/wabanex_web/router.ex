@@ -1,12 +1,15 @@
 defmodule WabanexWeb.Router do
   use WabanexWeb, :router
 
+  # Tudo que for definido abaixo deste pipeline, será em formato JSON
   pipeline :api do
     plug :accepts, ["json"]
   end
 
   scope "/api", WabanexWeb do
     pipe_through :api
+
+    get "/", IMCController, :index
   end
 
   # Enables LiveDashboard only for development
