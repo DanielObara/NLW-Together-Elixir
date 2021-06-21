@@ -5,17 +5,16 @@
 <h4 align="center"> 
 	:construction:  NextLevelWeek Together 🚀 In progress... :construction:
 </h4>
-<p align="center">	
-
+<p align="center">
+  <a aria-label="Completed" href="https://nextlevelweek.com/episodios/elixir/aula-1/edicao/6">
+    <img src="https://img.shields.io/badge/NLW-doing-yellow?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
+  </a>
+	<a href="https://www.codacy.com/gh/DanielObara/NLW-Together-Elixir/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DanielObara/NLW-Together-Elixir&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/d19e5c01e46c44abbaa3e64c3dfbd161"/></a>
 	
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/DanielObara/NLW-Together-Elixir">
 	
   <a href="https://www.linkedin.com/in/danielobara/">
     <img alt="Made by DanielObara" src="https://img.shields.io/badge/made%20by-DanielObara-%2304D361">
-  </a>
-
-  <a aria-label="Completed" href="https://nextlevelweek.com/episodios/elixir/aula-1/edicao/6">
-    <img src="https://img.shields.io/badge/NLW-doing-yellow?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
   </a>
   
   <a href="https://github.com/DanielObara/NLW-1.0/commits/master">
