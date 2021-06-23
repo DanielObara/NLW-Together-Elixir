@@ -46,7 +46,7 @@ An online and completely free event that will help you take the next step in you
 ### Classes
 - Class 01 - Liftoff - 20/06 - :heavy_check_mark:
 - Class 02 - Maximum Speed - 21/06 - :heavy_check_mark:
-- Class 03 - In Orbit - 22/06 - :construction:
+- Class 03 - In Orbit - 22/06 - :heavy_check_mark:
 - Class 04 - Landing - 23/06 - :construction:
 - Class 05 - Surface Exploration - 24/06 - :construction:
 
