@@ -87,8 +87,14 @@ $ git clone https://github.com/DanielObara/NLW-Together-Elixir
 # Go into the repository
 $ cd wabanex
 
-# Setup
+# Install dependencies
+$ mix deps.get
+
+# Create and migrate your database
 $ mix ecto.setup
+
+# or you can run migration manually with
+$ mix ecto.migrate
 
 # Start server
 $ mix phx.server
