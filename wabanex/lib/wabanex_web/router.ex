@@ -1,7 +1,6 @@
 defmodule WabanexWeb.Router do
   use WabanexWeb, :router
 
-  # Tudo que for definido abaixo deste pipeline, será em formato JSON
   pipeline :api do
     plug :accepts, ["json"]
   end
@@ -10,6 +9,13 @@ defmodule WabanexWeb.Router do
     pipe_through :api
 
     get "/", IMCController, :index
+  end
+
+  scope "/api" do
+    pipe_through :api
+
+    forward "/graphql", Absinthe.Plug, schema: WabanexWeb.Schema
+    forward "/graphiql", Absinthe.Plug.GraphiQL, schema: WabanexWeb.Schema
   end
 
   # Enables LiveDashboard only for development
