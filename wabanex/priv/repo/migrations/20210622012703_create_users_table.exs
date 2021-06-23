@@ -8,7 +8,6 @@ defmodule Wabanex.Repo.Migrations.CreateUsersTable do
       add :password, :string
 
       timestamps()
-
     end
 
     create unique_index(:users, [:email])
