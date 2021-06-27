@@ -12,11 +12,9 @@ defmodule Wabanex.IMCTest do
       expected_response =
         {:ok,
          %{
-           "Dani" => 23.437499999999996,
-           "Diego" => 23.04002019946976,
-           "Gabul" => 22.857142857142858,
-           "Rafael" => 24.897060231734173,
-           "Rodrigo" => 26.234567901234566
+           "Daniel" => 26.026174895895306,
+           "Diego" => 25.24933720489837,
+           "Aghata" => 20.811654526534856,
          }}
 
       assert response == expected_response

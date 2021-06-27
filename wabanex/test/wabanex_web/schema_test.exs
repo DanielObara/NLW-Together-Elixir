@@ -6,7 +6,7 @@ defmodule WabanexWeb.SchemaTest do
 
   describe "users queries" do
     test "when a valid id is give, returns the user", %{conn: conn} do
-      params = %{email: "jp@banana.com", name: "Jp", password: "123456"}
+      params = %{email: "daniel@teste.com", name: "da", password: "123456"}
 
       {:ok, %User{id: user_id}} = Create.call(params)
 
@@ -28,9 +28,9 @@ defmodule WabanexWeb.SchemaTest do
       expected_response = %{
         "data" => %{
           "getUser" => %{
-            "email" => "jp@banana.com",
+            "email" => "daniel@teste.com",
             "id" => user_id,
-            "name" => "Jp"
+            "name" => "da"
           }
         }
       }
@@ -44,7 +44,7 @@ defmodule WabanexWeb.SchemaTest do
       mutation = """
         mutation {
           createUser(input: {
-            name: "Joao", email: "joao@banana.com", password: "123456"
+            name: "Daniel", email: "daniel@teste.com", password: "123456"
           }){
             id
             name
@@ -57,7 +57,7 @@ defmodule WabanexWeb.SchemaTest do
         |> post("/api/graphql", %{query: mutation})
         |> json_response(:ok)
 
-      assert %{"data" => %{"createUser" => %{"id" => _id, "name" => "Joao"}}} = response
+      assert %{"data" => %{"createUser" => %{"id" => _id, "name" => "Daniel"}}} = response
     end
   end
 end
