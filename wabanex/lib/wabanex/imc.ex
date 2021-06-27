@@ -1,7 +1,4 @@
 defmodule Wabanex.IMC do
-  # definimos funções com 'def', "nome da função", parametro,
-  # 'do' seria o que a função faz e 'end' o final da função
-  # Utilizamos o pipe "|" para compor funções
   def calculate(%{"filename" => filename}) do
     filename
     |> File.read()
@@ -9,11 +6,11 @@ defmodule Wabanex.IMC do
   end
 
   defp handle_file({:ok, content}) do
-    data = content
-    |> String.split("\n")
-    |> Enum.map(fn line -> parse_line(line) end)
-    # Indicando que estamos transformando a lista em map
-    |> Enum.into(%{})
+    data =
+      content
+      |> String.split("\n")
+      |> Enum.map(fn line -> parse_line(line) end)
+      |> Enum.into(%{})
 
     {:ok, data}
   end
@@ -23,13 +20,12 @@ defmodule Wabanex.IMC do
   end
 
   defp parse_line(line) do
-   line
-   |> String.split(",")
-   |> List.update_at(1, &String.to_float/1)
-   |> List.update_at(2, &String.to_float/1)
-   |> calculate_imc()
-   |> IO.inspect()
- end
+    line
+    |> String.split(",")
+    |> List.update_at(1, &String.to_float/1)
+    |> List.update_at(2, &String.to_float/1)
+    |> calculate_imc()
+  end
 
- defp calculate_imc([name, height, weight]), do: {name, weight / (height * height)}
+  defp calculate_imc([name, height, weight]), do: {name, weight / (height * height)}
 end
