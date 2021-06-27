@@ -3,11 +3,11 @@
 </h1>
 
 <h4 align="center"> 
-	:construction:  NextLevelWeek Together 🚀 In progress... :construction:
+	 NextLevelWeek Together 🚀 :heavy_check_mark:
 </h4>
 <p align="center">
   <a aria-label="Completed" href="https://nextlevelweek.com/episodios/elixir/aula-1/edicao/6">
-    <img src="https://img.shields.io/badge/NLW-doing-yellow?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
+    <img src="https://img.shields.io/badge/NLW-done-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
   </a>
 	<a href="https://www.codacy.com/gh/DanielObara/NLW-Together-Elixir/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DanielObara/NLW-Together-Elixir&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/d19e5c01e46c44abbaa3e64c3dfbd161"/></a>
 	
@@ -48,7 +48,7 @@ An online and completely free event that will help you take the next step in you
 - Class 02 - Maximum Speed - 21/06 - :heavy_check_mark:
 - Class 03 - In Orbit - 22/06 - :heavy_check_mark:
 - Class 04 - Landing - 23/06 - :heavy_check_mark:
-- Class 05 - Surface Exploration - 24/06 - :construction:
+- Class 05 - Surface Exploration - 24/06 - :heavy_check_mark:
 
 ## 💻 Project
 
